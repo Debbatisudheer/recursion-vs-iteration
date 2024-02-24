@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+ @media only screen and (max-width: 600px) {
+            /* Styles for screens narrower than 600px (typical mobile devices) */
+            body {
+                margin: 10px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            ul {
+                margin-left: 10px;
+            }
+        }
